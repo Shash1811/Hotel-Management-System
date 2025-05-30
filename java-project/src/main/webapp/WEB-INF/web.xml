@@ -1,0 +1,56 @@
+<web-app>
+ <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <servlet>
+<servlet-name>AddReservationServlet</servlet-name>
+<servlet-class>com.servlet.AddReservationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AddReservationServlet</servlet-name>
+<url-pattern>/AddReservationServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>UpdateReservationServlet</servlet-name>
+<servlet-class>com.servlet.UpdateReservationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateReservationServlet</servlet-name>
+<url-pattern>/UpdateReservationServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>DeleteReservationServlet</servlet-name>
+<servlet-class>com.servlet.DeleteReservationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteReservationServlet</servlet-name>
+<url-pattern>/DeleteReservationServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>DisplayReservationsServlet</servlet-name>
+<servlet-class>com.servlet.DisplayReservationsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DisplayReservationsServlet</servlet-name>
+<url-pattern>/DisplayReservationsServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>ReportCriteriaServlet</servlet-name>
+<servlet-class>com.servlet.ReportCriteriaServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ReportCriteriaServlet</servlet-name>
+<url-pattern>/ReportCriteriaServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>ReportServlet</servlet-name>
+<servlet-class>com.servlet.ReportServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ReportServlet</servlet-name>
+<url-pattern>/ReportServlet</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
